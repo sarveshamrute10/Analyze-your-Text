@@ -4,6 +4,8 @@ import pandas as pd
 from matplotlib import pyplot as plt
 from textblob import TextBlob
 from nltk.tokenize import sent_tokenize
+import nltk
+nltk.download('punkt')
 
 import spacy
 from spacy import displacy
